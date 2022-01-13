@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+body {
+    background: #c31432;
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    background: linear-gradient(to right, #240b36, #c31432);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0px;
+    box-shadow: 1px 1px 8px #2b2b2b;
+    
+}
+
+.logo img {
+    width: 270px;
+    height: 100%;
+}
+
+#providedBy a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#characters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 1000;
+    padding: 20px;
+}
+
+.character {
+    padding: 20px;
+    width: 320px;
+    height: 480px;
+    border-radius: 30px;
+    color: #fff;
+    background: #c31432;
+    background: -webkit-linear-gradient(to top, #240b36, #c31432);
+    background: linear-gradient(to top, #240b36, #c31432);
+    box-shadow: 3px 3px 7px #131313;
+    transition: 0.3s all;
+}
+
+.character:hover {
+    transform: scale(105%);
+}
+
+.character__image {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 1px 1px 7px #131313;
+}
+
+.character__name {
+    font-size: 1.5rem;
+}
+
+.character__description {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+.comic {
+    padding: 20px;
+    width: 320px;
+    height: 480px;
+    border-radius: 30px;
+    color: #fff;
+    background: #c31432;
+    background: -webkit-linear-gradient(to top, #240b36, #c31432);
+    background: linear-gradient(to top, #240b36, #c31432);
+    box-shadow: 3px 3px 7px #131313;
+    transition: 0.3s all;
+    overflow: hidden;
+}
+
+.comic:hover {
+    transform: scale(105%);
+}
+
+.comic__image {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 1px 1px 7px #131313;
+}
+
+.comic__title {
+    font-size: 1.5rem;
+}
+
+.comic__description {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
